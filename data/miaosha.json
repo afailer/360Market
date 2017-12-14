@@ -1,0 +1,167 @@
+{
+	"ms":[
+		{
+			"src":"img/ms1.jpg",
+			"name":"闪迪（SanDisk）A1 128GB 读速100MB/s 至尊高速移动",
+			"price":"￥269.00",
+			"oldPrice":"￥499.00"
+		},
+		{
+			"src":"img/ms2.jpg",
+			"name":"酷开（coocaa）39KX2 39英寸15核高清智能液晶平板电视",
+			"price":"￥1488.00",
+			"oldPrice":"￥1699.00"
+		},
+		{
+			"src":"img/ms1.jpg",
+			"name":"闪迪（SanDisk）A1 128GB 读速100MB/s 至尊高速移动",
+			"price":"￥269.00",
+			"oldPrice":"￥499.00"
+		},
+		{
+			"src":"img/ms1.jpg",
+			"name":"闪迪（SanDisk）A1 128GB 读速100MB/s 至尊高速移动",
+			"price":"￥269.00",
+			"oldPrice":"￥499.00"
+		},
+		{
+			"src":"img/ms1.jpg",
+			"name":"闪迪（SanDisk）A1 128GB 读速100MB/s 至尊高速移动",
+			"price":"￥269.00",
+			"oldPrice":"￥499.00"
+		}
+	],
+	"mx_goods":[
+		{
+			"src":"img/mxd1.jpg",
+			"name":"360安全路由器P1 家用300M无线穿墙 光纤wifi信号放大 智能",
+			"price":"￥99"
+		},
+		{
+			"src":"img/mxd2.jpg",
+			"name":"360智能故事机 S603 宝宝故事机 可视版 语音群聊 海量资源 ",
+			"price":"￥219"
+		},
+		{
+			"src":"img/mxd3.jpg",
+			"name":"360智能摄像机 看店宝 D688 高清红外夜视 wifi网络摄像机 ",
+			"price":"￥299"
+		},
+		{
+			"src":"img/mxd1.jpg",
+			"name":"360行车记录仪智能后视镜导航云镜 S650 前后双录高清夜视",
+			"price":"￥829"
+		},
+		{
+			"src":"img/mxd1.jpg",
+			"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+			"price":"￥299"
+		}
+	],
+	"floors":[
+			{
+				"title":"手机/配件",
+				"leftTopImg":"img/flt1.jpg",
+				"leftBottomImg":"img/flb1.jpg",
+				"goods":[
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					}
+				]
+			},
+			
+			{
+				"title":"手机/配件",
+				"leftTopImg":"img/flt1.jpg",
+				"leftBottomImg":"img/flb1.jpg",
+				"goods":[
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					},
+					{
+						"src":"img/mxd1.jpg",
+						"name":"咚咚 智能语音车载MP3蓝牙播放器免提电话 FM发射器接收器 ",
+						"price":"￥299"
+					}
+				]
+			}
+		
+		]
+}
+
+
+
+
+
+
+
+
