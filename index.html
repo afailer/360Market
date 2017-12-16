@@ -9,19 +9,27 @@
 	</head>
 	<body>
 		<div class="banner">
+			<!--轮播图-->
 			<div class="cycle_imgs">
-				<ul>
+				<ul id="cycle_imgs">
 					<li><a href=""><img src="img/b1.jpg" alt="" /></a></li>
 					<li><a href=""><img src="img/b2.jpg" alt="" /></a></li>
 					<li><a href=""><img src="img/b3.jpg" alt="" /></a></li>
 				</ul>
+				<div class="cycle_pointer">
+					<span href="javascript:;"></span>
+					<span href="javascript:;"></span>
+					<span href="javascript:;"></span>
+				</div>
 			</div>
 			<div class="menu_mid">
 				<div class="left_menu">
+					<!--菜单左面列表-->
 					<ul>
 						<li class="left_item">
 							<span class="iconfont icon-shouji2 l_icon"></span>
 							<span class="l_n">手机/配件</span>
+							<!--菜单左面弹出的第一个菜单-->
 							<div class="left_pop">
 								<p class="left_pop_item_title">手机通讯</p>
 								<ul>
@@ -83,6 +91,7 @@
 						<li class="left_item"><span class="iconfont icon-jiaoyuwenju1 l_icon"></span><span class="l_n">教育/文具</span></li>
 					</ul>
 				</div>
+				<!--菜单的右面部分-->
 				<div class="menu_right_link">
 					<div class="menu_right_top">
 						<h2>商城头条</h2>
@@ -113,7 +122,7 @@
 			</div>
 		</div>
 		<!--秒杀-->
-		<div class="seckillBg">
+		<div class="seckillBg louti">
 			<div class="seckill">
 				<div class="timeLeft">
 					<p>当前场次剩余时间</p>
@@ -137,7 +146,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="star_goods">
+		<div class="star_goods louti">
 			<p class="star_title">明星产品</p>
 			<ul id="star_goos_con">
 				<li>
@@ -151,29 +160,56 @@
 				</li>
 			</ul>
 		</div>
-		<div id="floors" style="height:100%;width: 100%;">
+		<div id="floors" style="width: 100%;">
 			
 		</div>
-		<!--<div class="floor">
-			<p class="floor_title">手机/配件</p>
-			<div class="floor_con">
-				<div class="floor_left">
-					<img src="img/flt1.jpg" class="left_top_img"/>
-					<img src="img/flb1.jpg" class="left_bottom_img"/>
-				</div>
-					<ul class="floor_right">
-						<li class="goods">
-							<a>
-								<img src="img/mxd1.jpg"/>
-								<h5>
-									360安全路由器P1 家用300M无线穿墙 光纤wifi信号放大 智能
-								</h5>
-								<p>￥99</p>
-							</a>
-						</li>	
-					</ul>
+		<div id="left_floor">
+			<ul>
+				<li><a>限时秒杀</a></li>
+				<li><a>明星单品</a></li>
+				<li><a>手机</a></li>
+				<li><a>数码</a></li>
+				<li id="backTop"><a>回到顶部</a></li>
+			</ul>
+		</div>
+		<div class="tail">
+			<div class="tail_top">
+				<p class="t_top_s" style="border: 0;"><i class="iconfont icon-7"></i>七天无理由退货</p>
+				<p class="t_top_s"><i class="iconfont icon-15"></i>质量问题15天换货</p>
+				<p class="t_top_s" style="border: 0;"><i class="iconfont icon-bao"></i>满99包邮</p>
 			</div>
-		</div>-->
+			<div class="tail_bottom">
+				<ul class="tail_link">
+					<li class="tail_title">帮助中心</li>
+					<li><a>用户登录与密码找回</a></li>
+					<li><a>用户注册协议</a></li>
+					<li><a>购买指南</a></li>
+					<li><a>支付方式</a></li>
+					<li><a>配送与说明</a></li>
+				</ul>
+				<ul class="tail_link">
+					<li class="tail_title"><a href="">售后服务</a></li>
+					<li><a href="">7日无理由退货</a></li>
+					<li><a href="">质量问题15日内换货</a></li>
+					<li><a href="">保修条款</a></li>
+					<li><a href="">售后服务运费规则</a></li>
+				</ul>
+				<ul class="tail_contact">
+					<li class="tail_title">联系我们</li>
+					<li class="gaoliang">400-6822-360</li>
+					<li>周一至周日 9:00-18:00</li>
+					<li class="gaoliang">400-0111-366<span>（手机类产品）</span></li>
+					<li>周一至周日 8:00-22:00</li>
+					<li style="line-height: 0;">（仅收市话费）</li>
+				</ul>
+				<div class="tail_wm">
+					<div class="tail_wm_top"><img src="img/weibo_icon.png"><span><img src="img/wbewm.jpg"></span></div>
+					<div><img src="img/weixin_icon.png"><span><img src="img/weixinwm.jpg"></span></div>
+				</div>
+			</div>
+			<p class="tail_b">360商城©2013-2017 360公司版权所有 京ICP备17017089号 京公网安备11000002000006号</p>
+		</div>
+		
 	</body>
 </html>
 <script src="js/require.js" data-main = "js/index"></script>

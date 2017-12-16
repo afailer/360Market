@@ -1,0 +1,70 @@
+.fdj_con {
+  width: 1240px;
+  margin: 0 auto; }
+  .fdj_con .fdj {
+    width: 620px;
+    height: 620px;
+    float: left;
+    background: red; }
+    .fdj_con .fdj .photo {
+      width: 540px;
+      height: 540px; }
+      .fdj_con .fdj .photo .cur_pho {
+        width: 540px;
+        height: 540px; }
+      .fdj_con .fdj .photo .mask {
+        width: 60px;
+        height: 60px; }
+    .fdj_con .fdj .all_photo {
+      width: 610px;
+      height: 80px;
+      padding-top: 20px; }
+      .fdj_con .fdj .all_photo a {
+        width: 64px;
+        height: 64px;
+        margin-right: 10px;
+        background: blue;
+        display: block;
+        float: left; }
+        .fdj_con .fdj .all_photo a img {
+          width: 100%;
+          height: 100%; }
+  .fdj_con .goods_desc {
+    width: 600px;
+    float: right;
+    border: 1px solid green; }
+    .fdj_con .goods_desc .goods_name {
+      font-size: 28px;
+      font-weight: 800; }
+    .fdj_con .goods_desc .goods_notice {
+      color: red; }
+    .fdj_con .goods_desc .goods_price {
+      font-size: 30px;
+      color: red; }
+    .fdj_con .goods_desc .address .chage_address {
+      color: #005ea7; }
+    .fdj_con .goods_desc .type .type_name {
+      color: #848484;
+      float: left;
+      text-align: justify; }
+    .fdj_con .goods_desc .type .type_desc {
+      width: 400px;
+      float: left;
+      height: 200px;
+      border: 1px solid black; }
+    .fdj_con .goods_desc .type .goods_edit_num {
+      width: 200px;
+      height: 100px;
+      border: 1px solid #999; }
+    .fdj_con .goods_desc .type .baozhangList {
+      width: 200px;
+      height: 100px;
+      border: 1px solid black; }
+    .fdj_con .goods_desc .add_cart {
+      width: 150px;
+      height: 35px;
+      line-height: 37px;
+      font-size: 14px;
+      text-align: center;
+      color: white;
+      background-color: #FD532D; }

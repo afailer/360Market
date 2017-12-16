@@ -40,6 +40,26 @@ define(function(){
 			return str;
 		},
 		getFloorsStr : function(data){
+//			<div class="floor">
+//			<p class="floor_title">手机/配件</p>
+//			<div class="floor_con">
+//				<div class="floor_left">
+//					<img src="img/flt1.jpg" class="left_top_img"/>
+//					<img src="img/flb1.jpg" class="left_bottom_img"/>
+//				</div>
+//					<ul class="floor_right">
+//						<li class="goods">
+//							<a>
+//								<img src="img/mxd1.jpg"/>
+//								<h5>
+//									360安全路由器P1 家用300M无线穿墙 光纤wifi信号放大 智能
+//								</h5>
+//								<p>￥99</p>
+//							</a>
+//						</li>	
+//					</ul>
+//			</div>
+//		</div>
 			var getGoodsStr=function(gs){
 				var str=""
 				for(var v=0;v<gs.length;v++){
@@ -67,7 +87,7 @@ define(function(){
 				return str;
 			}
 			var getFloorStr=function(floor){
-							return `<div class="floor">
+							return `<div class="floor louti">
 										<p class="floor_title">${floor.title}</p>
 										<div class="floor_con">
 											<div class="floor_left">

@@ -20,8 +20,14 @@ gulp.task( "index",function(){
 			   .pipe(rename("index.css"))
 			   .pipe(gulp.dest("css"));
 })
+gulp.task( "goodsDetail",function(){
+	return gulp.src("css/goodsDetail.scss")
+			   .pipe(sass())
+			   .pipe(rename("goodsDetail.css"))
+			   .pipe(gulp.dest("css"));
+})
 //布置一个任务  监听index.html的文件内容的改变 
 // 如果index.html内容改变了  就自动更改 html目录下的index.html
 gulp.task( "watch" , function(){
-	return gulp.watch( "css/index.scss",["index"] );
+	return gulp.watch( "css/goodsDetail.scss",["goodsDetail"] );
 } )
