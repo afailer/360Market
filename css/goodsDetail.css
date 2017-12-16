@@ -4,8 +4,7 @@
   .fdj_con .fdj {
     width: 620px;
     height: 620px;
-    float: left;
-    background: red; }
+    float: left; }
     .fdj_con .fdj .photo {
       width: 540px;
       height: 540px; }
@@ -31,8 +30,7 @@
           height: 100%; }
   .fdj_con .goods_desc {
     width: 600px;
-    float: right;
-    border: 1px solid green; }
+    float: right; }
     .fdj_con .goods_desc .goods_name {
       font-size: 28px;
       font-weight: 800; }
@@ -43,23 +41,43 @@
       color: red; }
     .fdj_con .goods_desc .address .chage_address {
       color: #005ea7; }
-    .fdj_con .goods_desc .type .type_name {
-      color: #848484;
-      float: left;
-      text-align: justify; }
-    .fdj_con .goods_desc .type .type_desc {
-      width: 400px;
-      float: left;
-      height: 200px;
-      border: 1px solid black; }
-    .fdj_con .goods_desc .type .goods_edit_num {
-      width: 200px;
-      height: 100px;
-      border: 1px solid #999; }
-    .fdj_con .goods_desc .type .baozhangList {
-      width: 200px;
-      height: 100px;
-      border: 1px solid black; }
+    .fdj_con .goods_desc .type {
+      height: 33px;
+      line-height: 33px; }
+      .fdj_con .goods_desc .type .icon {
+        color: red;
+        font-size: 16px; }
+      .fdj_con .goods_desc .type .type_name {
+        color: #848484;
+        float: left;
+        height: 26px;
+        line-height: 26px;
+        font-size: 14px;
+        display: block;
+        padding: 10px;
+        text-align: justify; }
+      .fdj_con .goods_desc .type .type_desc {
+        width: 400px;
+        float: left; }
+      .fdj_con .goods_desc .type .goods_edit_num {
+        width: 200px;
+        border: 1px solid #999; }
+      .fdj_con .goods_desc .type .baozhangList {
+        height: 26px;
+        line-height: 26px;
+        font-size: 14px;
+        display: block;
+        padding: 10px;
+        color: #848484; }
+        .fdj_con .goods_desc .type .baozhangList .baozhang {
+          float: left;
+          border: orangered;
+          height: 26px;
+          line-height: 26px;
+          font-size: 14px;
+          display: block;
+          padding: 10px;
+          color: orangered; }
     .fdj_con .goods_desc .add_cart {
       width: 150px;
       height: 35px;

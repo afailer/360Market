@@ -4,13 +4,19 @@ $mainBlack:#323334;
     width: 1240px;
     margin: 0 auto;
 }
+@mixin desc{
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+}
 .fdj_con{
     @include middle;
     .fdj{
         width: 620px;
         height: 620px;
         float: left;
-        background: red;
         .photo{
             width: 540px;
             height: 540px;
@@ -45,7 +51,6 @@ $mainBlack:#323334;
     .goods_desc{
         width: 600px;
         float: right;
-        border: 1px solid green;
         .goods_name{ 
             font-size: 28px;
             font-weight: 800;
@@ -64,26 +69,36 @@ $mainBlack:#323334;
             }
         }
         .type{
+            height: 33px;
+            line-height: 33px;
+            .icon{
+                color: red;
+                font-size: 16px;
+            }
             .type_name{
                 color: #848484;
                 float: left;
+                @include desc;
                 text-align: justify;
             }
             .type_desc{
                 width: 400px;
                 float: left;
-                height: 200px;
-                border: 1px solid black;
+
             }
             .goods_edit_num{
                 width: 200px;
-                height: 100px;
                 border: 1px solid #999;
             }
              .baozhangList{
-                width: 200px;
-                height: 100px;
-                border: 1px solid black;
+                @include desc
+                color: #848484;
+                .baozhang{
+                    float: left;
+                    border: orangered;
+                   @include desc;
+                   color: orangered;
+                }
             }
         }
         .add_cart{
