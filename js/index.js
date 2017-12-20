@@ -23,6 +23,7 @@ requirejs(["jquery","outer","anim"],function($,outer,anim){
 			console.log("------------"+textStatus+" "+ErrorThrow);
 		}
 	});
+	$("#head").load("http://127.0.0.1/360Market/common.html #top")
 	$(".cycle_pointer span").mouseenter(function(){
 		var index=$(this).index();
 		$(this).animate({width:16,height:16},350).siblings().animate({width:12,height:12},350);

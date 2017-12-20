@@ -1,0 +1,86 @@
+.nav {
+  width: 100%;
+  background: white;
+  line-height: 50px; }
+  .nav p {
+    border-bottom: 1px solid #ccc; }
+  .nav .nav_first {
+    width: 1240px;
+    margin: 0 auto; }
+    .nav .nav_first a {
+      color: #999999; }
+    .nav .nav_first .nav_name_black {
+      color: #333333; }
+    .nav .nav_first a:before {
+      content: ">";
+      padding: 0 6px; }
+    .nav .nav_first .nav_name_first:before {
+      content: "";
+      margin-left: 10px; }
+  .nav .nav_item {
+    width: 1240px;
+    margin: 0 auto; }
+    .nav .nav_item a {
+      color: #333333; }
+    .nav .nav_item .nav_item_content {
+      padding: 0 30px;
+      color: #999999; }
+
+.goods_bg {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding-top: 60px; }
+  .goods_bg .goods_list {
+    width: 1240px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .goods_bg .goods_list li {
+      float: left;
+      margin-right: 8px;
+      margin-bottom: 8px; }
+    .goods_bg .goods_list .goods_item {
+      background: #FFFFFF;
+      width: 238px;
+      height: 328px;
+      border: 1px solid transparent; }
+      .goods_bg .goods_list .goods_item a img {
+        width: 168px;
+        height: 168px;
+        margin: 20px auto; }
+      .goods_bg .goods_list .goods_item .goods_name {
+        width: 90%;
+        margin: 0 auto;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 14px;
+        height: 24px;
+        line-height: 24px;
+        color: #31373c; }
+      .goods_bg .goods_list .goods_item .goods_price {
+        text-align: center;
+        color: #fa5437;
+        margin: 10px; }
+      .goods_bg .goods_list .goods_item .add_to_cart {
+        width: 125px;
+        text-align: center;
+        line-height: 20px;
+        padding: 4px 0;
+        margin: 0 auto;
+        color: #fa5437;
+        border: 1px solid #fa5437;
+        display: none;
+        cursor: pointer; }
+        .goods_bg .goods_list .goods_item .add_to_cart span {
+          margin-right: 4px;
+          font-size: 18px;
+          color: #fa5437; }
+      .goods_bg .goods_list .goods_item .add_to_cart:hover {
+        color: white;
+        background-color: #fa5437; }
+      .goods_bg .goods_list .goods_item .add_to_cart:hover span {
+        color: #FFFFFF; }
+    .goods_bg .goods_list .goods_item:hover {
+      border: 1px solid #fa5437; }
+    .goods_bg .goods_list .goods_item:hover .add_to_cart {
+      display: block; }
