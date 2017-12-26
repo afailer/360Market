@@ -18,11 +18,16 @@
 		<div class="regist_con">
 			<p class="title">注册360账号</p>
 			<div class="regist">
-				<span class="iconfont icon-denglu1 input"><input type="text" placeholder="输入要注册的手机号"></span>
-				<span class="iconfont icon-suozi input"><input type="text" placeholder="输入要注册的密码"></span>
-				<p class="next">下一步</p>
+				<span class="iconfont icon-denglu1 input"><input id="phone_num" type="text" placeholder="输入要注册的手机号"></span>
+				
+				<p class="checkWd" id="isGoodP"></p>
+			
+				<span class="iconfont icon-suozi input"><input id="pwd" type="text" placeholder="输入要注册的密码"></span>
+				<p class="checkWd" id="isGoodpwd"></p>
+				<p id="next" class="next">下一步</p>
 			</div>
 		</div>
 		
 	</body>
 </html>
+<script type="text/javascript" src="js/regist.js" ></script>

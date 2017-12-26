@@ -59,11 +59,12 @@ requirejs(["jquery","outer","anim"],function($,outer,anim){
 			$("#left_floor").css("opacity",opacity);
 		}
 		if($(window).scrollTop() > top){//显示楼层
+			//alert( $(".louti").size() )
 			var $floor=$(".louti").filter(function(){
-				console.log($(window).scrollTop()+"-------- "+$(this).index()+" ----------"+$(this).offset().top);
-				return($(window).scrollTop()>$(this).offset().top);
+				console.log($(window).scrollTop()+"-------- "+$(".louti").index(this)+" ----------"+$(this).offset().top);
+				return(Math.abs($(window).scrollTop()-$(this).offset().top)<$(this).outerHeight()/2 );
 			})
-			$("#left_floor li").eq($floor.index()).addClass("floor_active").siblings().removeClass("floor_active");
+			$("#left_floor li").eq($(".louti").index($floor)).addClass("floor_active").siblings().removeClass("floor_active");
 		}else{//隐藏楼梯
 			var opacity=1-((top-$(window).scrollTop())/(1.5*$("#left_floor").height()));
 			if(opacity<0){

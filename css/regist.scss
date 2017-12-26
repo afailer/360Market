@@ -1,4 +1,4 @@
-@mi
+@mixin middle{
     width: 700px;
     margin: 0 auto;
 }
@@ -45,12 +45,20 @@ body{
         border-bottom: 2px solid #F5F5F5;
     }
     .regist{
-        padding: 20px;
+        padding: 40px;
         text-align: center;
+        .checkWd{
+            color: red;
+            text-align: left;
+            padding-left: 168px;
+            margin-bottom: 30px;
+            height: 18px;
+            line-height: 22px;
+        }
         .input{
             height: 40px;
             
-            margin: 35px auto;
+            margin: 0 auto;
             line-height: 40px;
             padding-left: 10px;
             border: 1px solid #ccc;
